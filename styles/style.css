@@ -192,6 +192,7 @@
   padding: 0px 0px 0px 12px;
   width: 330px;
   height: 36px;
+  outline: none;
 }
 
 .search-box {
@@ -560,15 +561,11 @@
   background-color: #dbf3ed;
   border-radius: 24px;
   padding: 30px;
-  width: 565px;
+  width: 505px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.form-section__styles {
-  display: flex;
 }
 
 .label-text {
@@ -590,6 +587,7 @@
   border-radius: 4px;
   text-indent: 12px;
   margin-bottom: 24px;
+  outline: none;
 }
 
 .textarea-style {
